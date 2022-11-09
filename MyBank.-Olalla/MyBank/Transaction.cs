@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Text.Json;
+using System.Text.Json.Serialization;
+
+namespace MyBank
+{
+    class Transaction
+    {
+        public decimal Amount { get; }
+        public DateTime Date { get; }
+        public string Notes { get; }
+
+        public Transaction(decimal amount, DateTime date, string note)
+        {
+            Amount = amount;
+            Date = date;
+            Notes = note;
+        }
+    }
+
+
+}

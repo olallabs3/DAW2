@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7UEDqrmWGNfhvOpp94UWWwjQoU1wj8N4icM1XWB3jwX648DfGoxkwWFir6ueRjGd3cVWhIHSe8I11zsTymG8Jg==",
+  "dgSpecHash": "Ii5A+ARjSzZyvbzImDx0bK3ccT2JP5xd1QZd6M38a5eX0QdDhCUsuaMkCgAKsOeaROuAhZEqNS6gJ4bBD9oUvg==",
   "success": true,
   "projectFilePath": "C:\\Users\\A8-PC100\\Desktop\\MyBank.-Olalla\\MyBank\\MyBank.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\A8-PC100\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

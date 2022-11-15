@@ -101,11 +101,16 @@ namespace MyBank
                     if (opciones == 5)
                     {
                         Console.WriteLine("Pues ahi esta la puerta. (ojo no te de en el culo al salir)");
+
                         //Serializamos las cuentas que tenemos en el banco
                         string mijson = JsonSerializer.Serialize(cuentas);
-                        File.WriteAllText("PasamosAJson.txt", mijson);
+                        File.WriteAllText("PasamosJson.txt", mijson);
                         return;
 
+                        //string fileName = "PasamosAJson.json";
+                        //string jsonString = File.ReadAllText(mijson);
+                        //BankAccount cuentasJS = JsonSerializer.Deserialize<BankAccount>(jsonString);
+                        //Console.WriteLine($"Date: {cuentasJS.Owner}");            
 
                     }
                 }
